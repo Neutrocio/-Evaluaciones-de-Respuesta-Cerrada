@@ -104,4 +104,4 @@ sistema-evaluacion-cli/
 
 ## 📄 Documentación
 
-Toda la documentación técnica se encuentra en la carpeta [`/docs`](./docs/).
+Toda la documentación técnica se encuentra en la carpeta [`/Docs`](./Docs/).

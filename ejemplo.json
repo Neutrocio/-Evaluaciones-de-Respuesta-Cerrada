@@ -1,0 +1,92 @@
+{
+  "titulo": "Examen de Historia Universal",
+  "descripcion": "Preguntas sobre la Revolución Francesa y eventos del siglo XVIII",
+  "autor": "Sistema de Evaluación CLI",
+  "version": "1.0",
+  "preguntas": [
+    {
+      "id": 1,
+      "tipo": "opcion_multiple",
+      "enunciado": "¿En qué año comenzó la Revolución Francesa?",
+      "opciones": {
+        "A": "1776",
+        "B": "1789",
+        "C": "1804",
+        "D": "1815"
+      },
+      "respuesta_correcta": "B",
+      "puntaje": 20,
+      "retroalimentacion": {
+        "A": "1776 fue el año de la Declaración de Independencia de los Estados Unidos, no de la Revolución Francesa.",
+        "C": "1804 fue el año en que Napoleón Bonaparte se coronó Emperador de Francia.",
+        "D": "1815 fue el año de la batalla de Waterloo y la derrota definitiva de Napoleón."
+      }
+    },
+    {
+      "id": 2,
+      "tipo": "verdadero_falso",
+      "enunciado": "La toma de la Bastilla ocurrió el 14 de julio de 1789 y es considerada el inicio simbólico de la Revolución Francesa.",
+      "respuesta_correcta": "verdadero",
+      "puntaje": 15,
+      "retroalimentacion": {
+        "falso": "Este enunciado es correcto. La toma de la Bastilla el 14 de julio de 1789 es el evento que marca el inicio simbólico de la Revolución Francesa. Por eso Francia celebra su día nacional cada 14 de julio."
+      }
+    },
+    {
+      "id": 3,
+      "tipo": "completar",
+      "enunciado": "El lema de la Revolución Francesa era: Libertad, Igualdad y ___.",
+      "respuesta_correcta": "fraternidad",
+      "respuestas_alternativas": ["hermandad", "Fraternidad"],
+      "puntaje": 20,
+      "retroalimentacion": {
+        "default": "La palabra que completa el lema es 'Fraternidad' (en francés: Fraternité). Este lema de tres valores sigue siendo el lema oficial de la República Francesa hasta el día de hoy."
+      }
+    },
+    {
+      "id": 4,
+      "tipo": "opcion_multiple",
+      "enunciado": "¿Cuál de los siguientes documentos fue adoptado por la Asamblea Nacional de Francia en 1789?",
+      "opciones": {
+        "A": "La Constitución de los Estados Unidos",
+        "B": "El Contrato Social",
+        "C": "La Declaración de los Derechos del Hombre y del Ciudadano",
+        "D": "El Manifiesto Comunista"
+      },
+      "respuesta_correcta": "C",
+      "puntaje": 20,
+      "retroalimentacion": {
+        "A": "La Constitución de los Estados Unidos fue adoptada en 1787, dos años antes. Aunque influyó en la Revolución Francesa, no es un documento francés.",
+        "B": "El Contrato Social fue escrito por Jean-Jacques Rousseau en 1762, décadas antes de la Revolución. Fue una influencia filosófica, no un documento oficial.",
+        "D": "El Manifiesto Comunista fue escrito por Marx y Engels en 1848, casi 60 años después."
+      }
+    },
+    {
+      "id": 5,
+      "tipo": "emparejamiento",
+      "enunciado": "Relaciona cada figura histórica con su rol en la Revolución Francesa:",
+      "columna_izquierda": [
+        "1. Maximilien Robespierre",
+        "2. Luis XVI",
+        "3. María Antonieta",
+        "4. Napoleón Bonaparte"
+      ],
+      "columna_derecha": [
+        "A. Rey de Francia guillotinado en 1793",
+        "B. Líder del período del Terror",
+        "C. Reina de Francia, esposa del rey",
+        "D. General que tomó el poder tras la Revolución"
+      ],
+      "respuesta_correcta": {
+        "1": "B",
+        "2": "A",
+        "3": "C",
+        "4": "D"
+      },
+      "puntaje": 25,
+      "retroalimentacion": {
+        "default": "Repasa los personajes clave: Robespierre lideró el Terror (1793-1794), Luis XVI fue guillotinado en enero de 1793, María Antonieta fue ejecutada en octubre del mismo año, y Napoleón tomó el poder en el golpe del 18 de Brumario (1799)."
+      }
+    }
+  ]
+}

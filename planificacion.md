@@ -8,15 +8,11 @@ Desarrollar un sistema CLI de evaluación automatizada en Python, dividido en tr
 
 ## 2.2 Equipo y Roles
 
-> ⚠️ **Nota:** Ajustar nombres según los integrantes reales del grupo.
-
 | Integrante | Rol Principal | Responsabilidades |
 |------------|---------------|-------------------|
-| **Integrante 1** | Ingeniero de Datos | Diseño de la estructura JSON. Implementación de `cargar_examen()` y `validar_examen()` (Capa 1). |
-| **Integrante 2** | Desarrollador de Lógica | Implementación de `corregir_examen()`, `normalizar_texto()` y `calcular_puntaje()` (Capa 2). |
-| **Integrante 3** | Desarrollador CLI | Implementación del menú, presentación de preguntas y visualización de resultados (Capa 3). |
-| **Integrante 4** | QA + Documentación | Pruebas, creación del README, mantenimiento del repositorio GitHub y video demostración. |
-
+| **Integrante 1** | Ingeniero de Datos + QA | Diseño de la estructura JSON. Implementación de `cargar_examen()` y `validar_examen()` (Capa 1). Pruebas unitarias de Capa 1. |
+| **Integrante 2** | Desarrollador de Lógica | Implementación de `corregir_examen()`, `normalizar_texto()` y `calcular_puntaje()` (Capa 2). Pruebas unitarias de Capa 2. |
+| **Integrante 3** | Desarrollador CLI + Documentación | Implementación del menú, presentación de preguntas y visualización de resultados (Capa 3). Mantenimiento del repositorio GitHub y video demostración. |
 ---
 
 ## 2.3 Cronograma Detallado
@@ -27,14 +23,12 @@ Desarrollar un sistema CLI de evaluación automatizada en Python, dividido en tr
 |-------|-------------|------------|
 | Definir estructura del proyecto en GitHub | Todos | Repositorio con carpetas base |
 | Redactar entendimiento del problema | Integrante 1 | `docs/entendimiento.md` |
-| Redactar planificación | Integrante 4 | `docs/planificacion.md` |
+| Redactar planificación | Integrante 3 | `docs/planificacion.md` |
 | Diseñar arquitectura por capas | Integrantes 2 y 3 | `docs/diseño.md` |
 | Crear diagrama de arquitectura | Integrante 3 | `diagramas/arquitectura.md` |
 | Escribir pseudocódigo base | Todos | Carpeta `pseudocodigo/` |
 | Definir estructura del JSON de examen | Integrante 1 | `examenes/ejemplo.json` |
 | Revisión del diseño | Todos | `docs/revision_diseño.md` |
-
----
 
 ### Semana 4 — Prototipo Capas 1 y 2 ⏳
 
@@ -45,9 +39,7 @@ Desarrollar un sistema CLI de evaluación automatizada en Python, dividido en tr
 | Implementar `normalizar_texto()` | Integrante 2 | `src/logica/normalizador.py` |
 | Implementar `corregir_examen()` | Integrante 2 | `src/logica/corrector.py` |
 | Implementar `calcular_puntaje()` | Integrante 2 | `src/logica/puntaje.py` |
-| Pruebas unitarias de Capas 1 y 2 | Integrante 4 | `tests/test_datos.py`, `test_logica.py` |
-
----
+| Pruebas unitarias de Capas 1 y 2 | Integrantes 1 y 2 | `tests/test_datos.py`, `test_logica.py` |
 
 ### Semana 6 — Capa 3 + Integración LLM (opcional) ⏳
 
@@ -58,17 +50,15 @@ Desarrollar un sistema CLI de evaluación automatizada en Python, dividido en tr
 | Implementar `mostrar_resultados()` | Integrante 3 | `src/cli/resultados.py` |
 | Integrar las tres capas | Todos | `src/main.py` |
 | Integración LLM (si aplica) | Integrante 2 | `src/llm/generador.py` |
-| Demo funcional del flujo principal | Integrante 4 | CLI ejecutable |
-
----
+| Demo funcional del flujo principal | Integrante 3 | CLI ejecutable |
 
 ### Semana 8 — Proyecto Final ⏳
 
 | Tarea | Responsable | Entregable |
 |-------|-------------|------------|
-| Pruebas de integración completas | Integrante 4 | Reporte de pruebas |
+| Pruebas de integración completas | Integrantes 1 y 2 | Reporte de pruebas |
 | Corrección de errores finales | Todos | Código limpio en `main` |
-| Actualizar README con instrucciones de ejecución | Integrante 4 | `README.md` final |
+| Actualizar README con instrucciones de ejecución | Integrante 3 | `README.md` final |
 | Grabación del video demostración (máx. 5 min) | Todos | Video subido |
 | Informe de lecciones aprendidas | Todos | `docs/lecciones.md` |
 

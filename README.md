@@ -1,7 +1,7 @@
 # 📚 Sistema de Evaluación CLI
 
 > Proyecto académico — Evaluaciones de Respuesta Cerrada  
-> Grupos 1 y 2 | Entrega Semana 2
+> Grupos 1| Entrega Semana 2
 
 ---
 

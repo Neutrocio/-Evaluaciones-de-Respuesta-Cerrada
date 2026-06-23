@@ -77,7 +77,6 @@ sistema-evaluacion-cli/
 |------|-------------|
 | Opción múltiple (una respuesta) | El usuario selecciona una opción correcta |
 | Verdadero / Falso | El usuario indica V o F |
-| Completar espacios | El usuario escribe la palabra que falta |
 | Emparejamiento | El usuario asocia columnas o conceptos |
 
 ---

@@ -28,6 +28,7 @@ El sistema manejará cuatro tipos de preguntas de respuesta cerrada:
 | 1 | **Opción múltiple** | Se presentan 4 opciones (A, B, C, D); el usuario selecciona una. |
 | 2 | **Verdadero / Falso** | El usuario indica si un enunciado es verdadero o falso. |
 | 3 | **Emparejamiento** | Se presentan dos columnas; el usuario asocia cada elemento de la izquierda con uno de la derecha. |
+| 4 | **Completar espacios** | Se muestra una oración incompleta; el usuario escribe la palabra o frase faltante. |
 
 ---
 

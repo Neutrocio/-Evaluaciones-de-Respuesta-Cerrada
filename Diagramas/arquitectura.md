@@ -111,8 +111,8 @@
     ▼
  mostrar_resultados()
  ┌─────────────────────────────────────────┐
- │  Pregunta 1: ✅ Correcto — 20 puntos    │
- │  Pregunta 2: ❌ Incorrecto — 0 puntos   │
+ │  Pregunta 1: Correcto — 20 puntos    │
+ │  Pregunta 2: Incorrecto — 0 puntos   │
  │     → Retroalimentación: "..."          │
  │  ...                                    │
  │  PUNTAJE TOTAL: 65/100 (65%)            │

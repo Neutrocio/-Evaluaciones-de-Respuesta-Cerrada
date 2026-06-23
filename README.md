@@ -78,7 +78,7 @@ sistema-evaluacion-cli/
 | Opción múltiple (una respuesta) | El usuario selecciona una opción correcta |
 | Verdadero / Falso | El usuario indica V o F |
 | Emparejamiento | El usuario asocia columnas o conceptos |
-
+| Completar espacios | El usuario coloca una palabra |
 ---
 
 ## 📅 Cronograma de Entregas

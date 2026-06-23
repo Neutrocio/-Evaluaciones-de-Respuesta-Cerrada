@@ -71,7 +71,7 @@ sistema-evaluacion-cli/
 
 ---
 
-## 📋 Tipos de Preguntas Soportados
+## Tipos de Preguntas Soportados
 
 | Tipo | Descripción |
 |------|-------------|

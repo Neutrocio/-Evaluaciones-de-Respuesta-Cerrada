@@ -1,17 +1,17 @@
-# 📚 Sistema de Evaluación CLI
+# Sistema de Evaluación CLI
 
 > Proyecto académico — Evaluaciones de Respuesta Cerrada  
 > Grupos 1| Entrega Semana 2
 
 ---
 
-## 🧭 Descripción General
+## Descripción General
 
 Sistema de evaluación automatizada por línea de comandos (CLI) que permite cargar exámenes desde archivos JSON, presentar preguntas al estudiante, registrar sus respuestas, calificarlas automáticamente y mostrar retroalimentación inmediata.
 
 ---
 
-## 🗂️ Estructura del Repositorio
+## Estructura del Repositorio
 
 ```
 sistema-evaluacion-cli/
@@ -42,7 +42,7 @@ sistema-evaluacion-cli/
 
 ---
 
-## 🏗️ Arquitectura por Capas
+## Arquitectura por Capas
 
 ```
      Usuario
@@ -81,18 +81,18 @@ sistema-evaluacion-cli/
 | Completar espacios | El usuario coloca una palabra |
 ---
 
-## 📅 Cronograma de Entregas
+## Cronograma de Entregas
 
 | Semana | Hito | Estado |
 |--------|------|--------|
-| Semana 2 | Diseño de arquitectura + repositorio | ✅ En progreso |
-| Semana 4 | Prototipo Capa 1 y Capa 2 | ⏳ Pendiente |
-| Semana 6 | Integración LLM + Capa 3 básica | ⏳ Pendiente |
-| Semana 8 | Proyecto final completo | ⏳ Pendiente |
+| Semana 2 | Diseño de arquitectura + repositorio | En progreso |
+| Semana 4 | Prototipo Capa 1 y Capa 2 | Pendiente |
+| Semana 6 | Integración LLM + Capa 3 básica | Pendiente |
+| Semana 8 | Proyecto final completo | Pendiente |
 
 ---
 
-## 🔧 Tecnologías Previstas
+## Tecnologías Previstas
 
 - **Lenguaje:** Python 3
 - **Entrada de datos:** Archivos JSON
@@ -101,6 +101,6 @@ sistema-evaluacion-cli/
 
 ---
 
-## 📄 Documentación
+## Documentación
 
 Toda la documentación técnica se encuentra en la carpeta [`/Docs`](./Docs/).
